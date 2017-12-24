@@ -1,0 +1,26 @@
+.PositionHandler {
+	display: block;
+	border: 2px ridge #222;
+	width: 640px;
+	height: 480px;
+	overflow: auto;
+}
+
+.positions {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	border: 1px solid #0f0;
+	margin: 10px auto;
+	overflow: auto;
+}
+
+.position {
+	text-align: center;
+	font-size: 15px;
+}
+
+.highlight-coords {
+	color: #f00;
+	text-transform: uppercase;
+}

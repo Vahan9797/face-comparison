@@ -1,0 +1,9 @@
+.WebCamFrame {
+	display: flex;
+	flex: 1;
+	align-items: center;
+	justify-content: center;
+	margin: 10px;
+	user-select: none;
+	pointer-events: none;
+}

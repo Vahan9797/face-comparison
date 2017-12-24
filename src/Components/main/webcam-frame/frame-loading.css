@@ -1,0 +1,42 @@
+.FrameLoading {
+	background: #d4d4c9;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	border: 1px solid #1f1f1f;
+}
+
+.loading-icon {
+	padding: 10px;
+	animation: Icon-spin infinite 3s linear;
+	-webkit-animation: Icon-spin infinite 3s linear;
+	-moz-animation: Icon-spin infinite 3s linear;
+}
+
+.loading-message, .error-message {
+	font-size: inherit;
+	font-family: Helvetica, Arial, sans-serif;
+	font-smoothing: antialiased;
+	-moz-font-smoothing: grayscale;
+}
+
+.loading-message {
+	color: #222;
+}
+
+.error-message {
+	max-width: 300px;
+	color: #f41234;
+}
+
+.error-icon {
+	font-family: initial;
+	color: #f41234;
+}
+
+@keyframes Icon-spin {
+	from {transform: rotate(0deg);}
+	to {transform:  rotate(360deg);}
+}
